@@ -7,7 +7,7 @@ class Score:
         self.math = math
 
     # 파이썬 계산 프로퍼티 (메서드지만 변수처럼 써먹는다.)
-    @property
+    @property # Score.total()
     def total(self):  # Score.total -> 계산됨
         return self.kor + self.eng + self.math
 
