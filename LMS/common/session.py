@@ -21,9 +21,9 @@ class Session:
 
         return pymysql.connect(
             host='192.168.0.150',
-            user='mbc320',
+            user='kkk',
             password='1234',  # 본인의 비밀번호로 변경
-            db='lms',
+            db='mbc',
             charset='utf8mb4',
             cursorclass=pymysql.cursors.DictCursor
             # dict 타입으로 처리함 (딕셔너리타입 k : v )
